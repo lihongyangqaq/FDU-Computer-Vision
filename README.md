@@ -1,5 +1,10 @@
 # FDU cv 第一次作业
-本次代码将文件夹用pycharm等IDE打开后，在3Layer_NN.py中运行文件即可启动 
+本次代码使用方式：
+将3Layer_NN.py、weight.txt放于python环境中，自行将data文件夹放于同一目录下，运行文件即可启动 
+
+打开的文件的语句为
+with open(f"data/cifar-10-batches-py/data_batch_{i}", 'rb') as f:  # 使用python的标准输入库读取文件
+请保证data文件夹与源代码在同一父目录下
 ## 实现了自动参数查找与手动输入参数训练模型的功能  
 在运行文件后    
 输入：1 即可进入自动参数查找模式，程序将从      
